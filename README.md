@@ -1,4 +1,4 @@
-# keras-chest_r-ray-analysis
+# keras-chest_x-ray-analysis
 
 ![brain scan image](https://image.freepik.com/free-photo/radiology-doctor-examining-chest-x-ray-film-patient-health-care-clinic_224098-127.jpg)
 
@@ -8,7 +8,7 @@ Add description
 
 -----
 
-Dataset used: https://www.kaggle.com/sartajbhuvaji/brain-tumor-classification-mri
+Dataset used: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 -----
 
