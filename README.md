@@ -1,7 +1,5 @@
 # keras-chest_r-ray-analysis
 
-# keras-brain-tumor-scan
-
 ![brain scan image](https://image.freepik.com/free-photo/radiology-doctor-examining-chest-x-ray-film-patient-health-care-clinic_224098-127.jpg)
 
 -----
@@ -54,8 +52,8 @@ jupyter notebook
 
 -----
 
-Started on 08/04/2021
+Started on 18/04/2021
 
-Ended 17/04/2021
+Ended 
 
 Archived
