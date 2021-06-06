@@ -1,8 +1,8 @@
 # keras-chest_x-ray-analysis
 
-![brain scan image](https://image.freepik.com/free-photo/radiology-doctor-examining-chest-x-ray-film-patient-health-care-clinic_224098-127.jpg)
-
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
+
+![brain scan image](https://image.freepik.com/free-photo/radiology-doctor-examining-chest-x-ray-film-patient-health-care-clinic_224098-127.jpg)
 
 -----
 
