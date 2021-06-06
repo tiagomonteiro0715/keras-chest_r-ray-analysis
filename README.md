@@ -47,7 +47,6 @@ Install necessary modules and activate it
 
 ```
 pip install tensorflow==2.4.1 matplotlib==3.3 keras==2.4 ipykernel
-
 ```
 
 Install modules to make sure the code runs on a jupyter notebook
