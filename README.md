@@ -6,7 +6,7 @@
 
 -----
 
-The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same tyope. 
+The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
 
 Essencially, it takes a dataset of images builds a model that classifies chest images with and without cancer. I used tensorflow because it was, in my point of view, the best machine lerning framework for programming enthusiasts in this subfield.
 
