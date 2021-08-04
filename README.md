@@ -5,28 +5,42 @@
 ![brain scan image](https://image.freepik.com/free-photo/radiology-doctor-examining-chest-x-ray-film-patient-health-care-clinic_224098-127.jpg)
 
 -----
+### What this is
 
-The motivation behind this project was to gain a better understanding of tensorflow 2.4 and to serve as an example for future projects of the same type. 
+A tensorflow model written in Python
 
-Essencially, it takes a dataset of images builds a model that classifies chest images with and without cancer. I used tensorflow because it was, in my point of view, the best machine lerning framework for programming enthusiasts in this subfield.
+### What this does
 
-Not only I lerned a lot about this framework, but also learned in a pratical way machine lerning. This projects standout by the code being writeen in a way that is easy to understand.
+In particular, it uses a dataset of images to create a model that can distinguish between chest images that have and don't have cancer.
+
+
+### Motivation and what I have learned
+
+Tensorflow 2.4 was implemented as part of this project to gain a deeper understanding of the software and to serve as an example for other similar projects in the future.
+
+As a programming enthusiast in this subfield, I considered tensorflow to be the best machine learning framework available. My choice of technology is based on this.
+
+Besides learning more about the framework and machine learning, I also gained a better understanding of programming and how it works in real time. 
+
+### Main difficulties and how it stand out
+
+To be able to complete the project, I had to figure out and comprehend what had to be written.
+
+This project stands out from the crowd due to its concise code. Furthermore, the model is easy to use and intuitive.  
 
 -----
 
-Dataset used: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+### Install dependencies
 
------
-
-Install dependencies:
-
-Upgrade pip and install [pipenv](https://pipenv.pypa.io/en/latest/)
+#### Upgrade pip and install [pipenv](https://pipenv.pypa.io/en/latest/)
 
 ```
 pip install --upgrade --user pip
 
 pip install --upgrade virtualenv
 ```
+
+
 
 Create and activate the virtual enviroment.The python version already needs to be installed in your pc
 
@@ -35,37 +49,37 @@ I am using this python version because at the moment this python version is  com
 ```
 virtualenv envname
 ```
-Activate it:
+
+
+
+#### Activate it:
+
+Windows:
+```
+envname\Scripts\activate
+```
+macOS/Linux:
+```
+envname/bin/activate
+```
+#### Install necessary modules and activate it
 
 ```
-cd envname/Scripts
-
-activate
+pip install tensorflow==2.4.1 pandas==1.2.4 numpy==1.2 ipykernel
 ```
 
-Install necessary modules and activate it
-
-```
-pip install tensorflow==2.4.1 matplotlib==3.3 keras==2.4 ipykernel
-```
-
-Install modules to make sure the code runs on a jupyter notebook
+#### Make sure the code runs on a jupyter notebook
 
 ```
 python -m ipykernel install --name=envname
 ```
-After all this, start jupyter notebook
+#### Start jupyter notebook
 
 ```
 cd ../..
 
 jupyter notebook
 ```
-
 -----
 
-Started on 18/04/2021
-
-Ended 20/04/2021
-
-Archived
+Dataset used: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
